@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raghava Raju Nakka | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-grow:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold hover-grow">Raghava Raju Nakka</h1>
+      <nav>
+        <ul class="flex gap-6">
+          <li><a href="#about" class="hover:underline hover-grow">About</a></li>
+          <li><a href="#skills" class="hover:underline hover-grow">Skills</a></li>
+          <li><a href="#projects" class="hover:underline hover-grow">Projects</a></li>
+          <li><a href="#resume" class="hover:underline hover-grow">Resume</a></li>
+          <li><a href="#contact" class="hover:underline hover-grow">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 text-center">
+    <img src="raghava photo.jpg" alt="Raghava Raju" class="mx-auto mb-6 rounded-full w-40 h-40 object-cover border-4 border-blue-600 hover-grow">
+    <h2 class="text-4xl font-bold mb-4 hover-grow">Hi, I'm Raghava</h2>
+    <p class="text-xl mb-4 hover-grow">Software Engineer | Cloud Enthusiast | Java & AWS Developer</p>
+    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 hover-grow">Let's Connect</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-16 px-6 bg-white max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4 hover-grow">About Me</h3>
+    <p class="hover-grow">
+      I'm a recent B.Tech graduate in Computer Science with hands-on skills in Java, Python, SQL, and AWS.
+      I’m passionate about building scalable, cloud-based applications and solving real-world problems with code.
+      Completed hands-on projects in machine learning, natural language processing, and cybersecurity concepts. 
+      Certified in AWS Cloud and Oracle Java, with practical knowledge of SAP ABAP. A quick learner with excellent
+     problem-solving skills, eager to contribute to real-world software solutions in a dynamic and collaborative environment.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 px-6 bg-gray-100 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4 hover-grow">Skills</h3>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">Java</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">Python</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">ORACLE(SQL/PLSQL)</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">AWS</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">HTML,CSS,JAVASCRIPT</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">REACT JS</span>
+      <span class="bg-white shadow p-4 text-center rounded hover-grow">SAP ABAP</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-6 bg-white max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4 hover-grow">Projects</h3>
+    <ul class="space-y-6">
+      <li class="hover-grow">
+        <h4 class="text-xl font-semibold">NETSPAM: A Network-Based Spam Detection Framework (Java) October 2023 - December 2023</h4>
+        <ul class="list-disc list-inside ml-4">
+          <li>Utilized spam features to model review datasets as heterogeneous information network</li>
+          <li>Mapped spam detection procedure into a classification problem</li>
+          <li>Created a spam detection system focused on analyzing network traffic patterns to detect spam messages</li>
+          <li>Extracted both textual and behavioral features such as word usage, review frequency, and user credibility</li>
+        </ul>
+      </li>
+      <li class="hover-grow">
+        <h4 class="text-xl font-semibold">Caption Generator Using Machine Learning (CNN, LSTM) February 2024 - June 2024</h4>
+        <ul class="list-disc list-inside ml-4">
+          <li>Developed a model to generate captions for images using deep learning techniques</li>
+          <li>Employed CNN and LSTM for image caption generation</li>
+          <li>Automated image captioning system using CNN for feature extraction and LSTM for text generation</li>
+        </ul>
+      </li>
+      <li class="hover-grow">
+        <h4 class="text-xl font-semibold">AWS Serverless App: Image Upload & Analysis Portal March 2024 - May 2024</h4>
+        <ul class="list-disc list-inside ml-4">
+          <li>Built using AWS S3, Lambda, Rekognition, API Gateway, and DynamoDB in a fully serverless architecture</li>
+          <li>Enabled image upload to S3 and automated analysis using Amazon Rekognition for object and face detection</li>
+          <li>Stored metadata and recognition results in DynamoDB for fast retrieval</li>
+          <li>Designed with scalability, cost-efficiency, and zero server maintenance in mind</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="py-16 px-6 bg-gray-100 max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-bold mb-4 hover-grow">Resume</h3>
+    <a href="Nakka Raghava Raju Resume.pdf" download class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 hover-grow">
+      Download My Resume
+    </a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-white max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4 hover-grow">Contact Me</h3>
+    <p class="hover-grow">Email: <a href="mailto:raghavaraju081@gmail.com" class="text-blue-600">raghavaraju081@gmail.com</a></p>
+    <p class="hover-grow">Phone: +91-9640035294</p>
+    <p class="mt-4 hover-grow">
+      <a href="https://github.com/Raghurrr" target="_blank" class="text-blue-600 underline">GitHub</a> |
+      <a href="https://linkedin.com/in/raghava-raju-011503285" target="_blank" class="text-blue-600 underline">LinkedIn</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    © 2025 Raghava Raju Nakka. All rights reserved.
+  </footer>
+</body>
+
+</html>
